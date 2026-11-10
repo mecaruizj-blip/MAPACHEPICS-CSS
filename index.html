@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="MapachePics">
+
+    <title>MapachePics</title>
+
+    <link rel="icon" type="image/png" href="dist/imagenes/logo.ico">
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/mi-estilo.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <a class="logo-link" href="index.html">
+
+            <img class="logo-img"
+                 src="dist/imagenes/logo.ico"
+                 alt="Logo MapachePics">
+
+        </a>
+
+        <nav>
+
+            <a class="texto-blanco" href="index.html">
+                Inicio
+            </a>
+
+            <a class="texto-blanco" href="page/galeria.html">
+                Galería
+            </a>
+
+            <a class="texto-blanco" href="page/proyectos.html">
+                Proyectos
+            </a>
+
+            <a class="texto-blanco" href="page/contacto.html">
+                Contacto
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================
+             CARRUSEL
+        ========================== -->
+
+        <div id="carouselInicio" class="carousel slide">
+
+            <div class="carousel-indicators">
+
+                <button type="button"
+                        data-bs-target="#carouselInicio"
+                        data-bs-slide-to="0"
+                        class="active">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#carouselInicio"
+                        data-bs-slide-to="1">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#carouselInicio"
+                        data-bs-slide-to="2">
+                </button>
+
+                <button type="button"
+                        data-bs-target="#carouselInicio"
+                        data-bs-slide-to="3">
+                </button>
+
+            </div>
+
+
+            <div class="carousel-inner">
+
+
+                <!-- BANNER -->
+
+                <div class="carousel-item active">
+
+                    <img src="dist/imagenes/banner.jpg"
+                         class="d-block w-100"
+                         alt="MapachePics">
+
+                    <div class="carousel-caption">
+
+                        <h2>
+                            Fotografías que cuentan tu historia
+                        </h2>
+
+                        <p>
+                            Retratos, momentos especiales y sesiones creativas
+                            pensadas para guardar recuerdos únicos.
+                        </p>
+
+                        <a href="page/contacto.html">
+
+                            <button class="boton">
+                                Reserva tu sesión
+                            </button>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RETRATOS -->
+
+                <div class="carousel-item">
+
+                    <img src="dist/imagenes/retrato.png"
+                         class="d-block w-100"
+                         alt="Sesión de retrato">
+
+                    <div class="carousel-caption">
+
+                        <h2>
+                            Retratos que cuentan tu historia
+                        </h2>
+
+                        <p>
+                            Sesiones personales para capturar tu personalidad
+                            y crear fotografías que quieras conservar.
+                        </p>
+
+                        <a href="page/proyectos.html#retratos">
+
+                            <button class="boton">
+                                Ver retratos
+                            </button>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MOMENTOS ESPECIALES -->
+
+                <div class="carousel-item">
+
+                    <img src="dist/imagenes/momentos especiales.png"
+                         class="d-block w-100"
+                         alt="Momentos especiales">
+
+                    <div class="carousel-caption">
+
+                        <h2>
+                            Guarda tus momentos especiales
+                        </h2>
+
+                        <p>
+                            Capturamos celebraciones y momentos importantes
+                            para convertirlos en recuerdos que duren para siempre.
+                        </p>
+
+                        <a href="page/proyectos.html#momentos">
+
+                            <button class="boton">
+                                Conoce más
+                            </button>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SESIONES CREATIVAS -->
+
+                <div class="carousel-item">
+
+                    <img src="dist/imagenes/proyectos.png"
+                         class="d-block w-100"
+                         alt="Sesiones creativas">
+
+                    <div class="carousel-caption">
+
+                        <h2>
+                            Convierte una idea en una sesión diferente
+                        </h2>
+
+                        <p>
+                            Creamos propuestas personalizadas a partir de
+                            conceptos, estilos e ideas creativas.
+                        </p>
+
+                        <a href="page/proyectos.html#creativas">
+
+                            <button class="boton">
+                                Ver sesiones creativas
+                            </button>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FLECHA IZQUIERDA -->
+
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselInicio"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+
+            <!-- FLECHA DERECHA -->
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselInicio"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- =========================
+             NUESTRAS SESIONES
+        ========================== -->
+
+        <section class="sesiones">
+
+            <h2>Nuestras sesiones</h2>
+
+            <p>
+                Elige la sesión que mejor se adapte
+                a lo que quieres recordar.
+            </p>
+
+
+            <!-- RETRATOS -->
+
+            <div class="tarjeta">
+
+                <h3>Retratos</h3>
+
+                <p>
+                    Una sesión personal pensada para renovar tus fotografías,
+                    celebrar una etapa especial o simplemente tener un recuerdo tuyo.
+                </p>
+
+                <p>
+                    <strong>Duración:</strong> 1 hora
+                </p>
+
+                <p>
+                    <strong>Incluye:</strong> 10 fotografías editadas
+                </p>
+
+                <p>
+                    <strong>Locación:</strong> 1 locación
+                </p>
+
+                <p>
+                    <strong>Precio:</strong> Desde S/ 150
+                </p>
+
+                <a href="page/contacto.html">
+
+                    <button class="boton">
+                        Quiero esta sesión
+                    </button>
+
+                </a>
+
+            </div>
+
+
+            <!-- MOMENTOS ESPECIALES -->
+
+            <div class="tarjeta">
+
+                <h3>Momentos especiales</h3>
+
+                <p>
+                    Capturamos cumpleaños, celebraciones y momentos importantes
+                    para que puedas conservarlos para siempre.
+                </p>
+
+                <p>
+                    <strong>Duración:</strong> 2 horas
+                </p>
+
+                <p>
+                    <strong>Incluye:</strong> 20 fotografías editadas
+                </p>
+
+                <p>
+                    <strong>Locación:</strong> A coordinar
+                </p>
+
+                <p>
+                    <strong>Precio:</strong> Desde S/ 250
+                </p>
+
+                <a href="page/contacto.html">
+
+                    <button class="boton">
+                        Quiero esta sesión
+                    </button>
+
+                </a>
+
+            </div>
+
+
+            <!-- CREATIVAS -->
+
+            <div class="tarjeta">
+
+                <h3>Sesiones creativas</h3>
+
+                <p>
+                    Una propuesta personalizada para transformar una idea,
+                    concepto o estilo en una sesión fotográfica diferente.
+                </p>
+
+                <p>
+                    <strong>Duración:</strong> 1 hora y 30 minutos
+                </p>
+
+                <p>
+                    <strong>Incluye:</strong> 15 fotografías editadas
+                </p>
+
+                <p>
+                    <strong>Concepto:</strong> Personalizado
+                </p>
+
+                <p>
+                    <strong>Precio:</strong> Desde S/ 200
+                </p>
+
+                <a href="page/contacto.html">
+
+                    <button class="boton">
+                        Quiero esta sesión
+                    </button>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CÓMO RESERVAR
+        ========================== -->
+
+        <section class="reserva">
+
+            <h2>¿Cómo reservar tu sesión?</h2>
+
+            <p>
+                Reservar tu sesión en MapachePics es fácil.
+                Solo sigue estos pasos:
+            </p>
+
+
+            <div class="paso">
+
+                <h3>1. Elige tu sesión</h3>
+
+                <p>
+                    Escoge entre retratos,
+                    momentos especiales o una sesión creativa.
+                </p>
+
+            </div>
+
+
+            <div class="paso">
+
+                <h3>2. Contáctanos</h3>
+
+                <p>
+                    Cuéntanos qué sesión deseas
+                    y coordinaremos contigo todos los detalles.
+                </p>
+
+            </div>
+
+
+            <div class="paso">
+
+                <h3>3. Coordinamos la fecha</h3>
+
+                <p>
+                    Elegimos juntos la fecha,
+                    horario y locación para realizar tu sesión.
+                </p>
+
+            </div>
+
+
+            <div class="paso">
+
+                <h3>4. Recibe tus fotografías</h3>
+
+                <p>
+                    Después de la sesión recibirás tus fotografías
+                    seleccionadas y editadas.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONOCE NUESTRO TRABAJO
+        ========================== -->
+
+        <section class="galeria">
+
+            <h2>Conoce nuestro trabajo</h2>
+
+            <p>
+                Pasa el mouse sobre cada categoría
+                para descubrir más fotografías.
+            </p>
+
+
+            <!-- RETRATOS -->
+
+            <div class="foto foto-hover">
+
+                <img src="dist/imagenes/retrato.png"
+                     alt="Sesión de retrato">
+
+                <h3>Retratos</h3>
+
+                <div class="mini-galeria">
+
+                    <img src="dist/imagenes/retrato1.jpg"
+                         alt="Retrato 1">
+
+                    <img src="dist/imagenes/retrato2.jpg"
+                         alt="Retrato 2">
+
+                    <img src="dist/imagenes/retrato3.jpg"
+                         alt="Retrato 3">
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENTOS ESPECIALES -->
+
+            <div class="foto foto-hover">
+
+                <img src="dist/imagenes/momentos especiales.png"
+                     alt="Momentos especiales">
+
+                <h3>Momentos especiales</h3>
+
+                <div class="mini-galeria">
+
+                    <img src="dist/imagenes/momento1.jpg"
+                         alt="Momento especial 1">
+
+                    <img src="dist/imagenes/momento2.jpg"
+                         alt="Momento especial 2">
+
+                    <img src="dist/imagenes/momento3.jpg"
+                         alt="Momento especial 3">
+
+                </div>
+
+            </div>
+
+
+            <!-- SESIONES CREATIVAS -->
+
+            <div class="foto foto-hover">
+
+                <img src="dist/imagenes/proyectos.png"
+                     alt="Sesión creativa">
+
+                <h3>Sesiones creativas</h3>
+
+                <div class="mini-galeria">
+
+                    <img src="dist/imagenes/creativo1.jpg"
+                         alt="Sesión creativa 1">
+
+                    <img src="dist/imagenes/creativo2.jpg"
+                         alt="Sesión creativa 2">
+
+                    <img src="dist/imagenes/creativo3.jpg"
+                         alt="Sesión creativa 3">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="cta">
+
+            <h2>
+                ¿Listo para reservar tu sesión?
+            </h2>
+
+            <p>
+                Cuéntanos qué tipo de sesión tienes en mente
+                y coordinemos juntos la fecha, locación y estilo
+                que mejor se adapte a ti.
+            </p>
+
+            <a href="page/contacto.html">
+
+                <button class="boton">
+                    Reserva tu sesión
+                </button>
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <h3>MapachePics</h3>
+
+        <p>
+            Fotografía creativa para momentos
+            que vale la pena recordar.
+        </p>
+
+        <p>
+
+            <a class="texto-blanco"
+               href="index.html">
+                Inicio
+            </a>
+
+            <a class="texto-blanco"
+               href="page/galeria.html">
+                Galería
+            </a>
+
+            <a class="texto-blanco"
+               href="page/proyectos.html">
+                Proyectos
+            </a>
+
+            <a class="texto-blanco"
+               href="page/contacto.html">
+                Contacto
+            </a>
+
+        </p>
+
+        <p>
+            Correo: contacto@mapachepics.com
+        </p>
+
+        <p>
+            © 2026 MapachePics
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         WHATSAPP
+    ========================== -->
+
+    <a class="whatsapp-flotante"
+       href="https://wa.me/51XXXXXXXXX"
+       target="_blank">
+
+        <img src="dist/imagenes/whatsapp.png"
+             alt="Contactar por WhatsApp">
+
+    </a>
+
+
+    <!-- BOOTSTRAP -->
+
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
